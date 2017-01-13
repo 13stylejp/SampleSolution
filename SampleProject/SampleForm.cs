@@ -28,7 +28,7 @@ namespace SampleProject
             {
                 return x - y;
             }
- 
+            x = 1;
             return x + y;
         }
     }
