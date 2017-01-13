@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Dev\SampleSolution\SampleProjectTest\bin\Debug\SampleProjectTest.dll" total="2" errors="0" failures="2" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-01-13" time="15:06:18">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.8745" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="D:\Dev\SampleSolution\OpenCover\94b12418-5aa3-46ff-8ddc-83604b9464af" machine-name="VAIO" user="k_morimoto" user-domain="VAIO" />
+  <culture-info current-culture="ja-JP" current-uiculture="ja-JP" />
+  <test-suite type="Assembly" name="D:\Dev\SampleSolution\SampleProjectTest\bin\Debug\SampleProjectTest.dll" executed="True" result="Failure" success="False" time="3.689" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="SampleProjectTest" executed="True" result="Failure" success="False" time="3.636" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="SampleFormTest" executed="True" result="Failure" success="False" time="3.629" asserts="0">
+            <results>
+              <test-case name="SampleProjectTest.SampleFormTest.テストケース01" executed="True" result="Failure" success="False" time="2.750" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: 0
+  But was:  5
+]]></message>
+                  <stack-trace><![CDATA[場所 SampleProjectTest.SampleFormTest.テストケース01() 場所 D:\Dev\SampleSolution\SampleProjectTest\SampleFormTest.cs:行 23
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="SampleProjectTest.SampleFormTest.テストケース02" executed="True" result="Failure" success="False" time="0.181" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: 0
+  But was:  5
+]]></message>
+                  <stack-trace><![CDATA[場所 SampleProjectTest.SampleFormTest.テストケース02() 場所 D:\Dev\SampleSolution\SampleProjectTest\SampleFormTest.cs:行 36
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
