@@ -28,10 +28,8 @@ namespace SampleProject
             {
                 return x - y;
             }
-            else
-            {
-                return y - x;
-            }
+ 
+            return x;
         }
     }
 }
